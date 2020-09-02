@@ -1,0 +1,40 @@
+// Upgrade Federation starbase and sensor station
+// to versions with the Aegian's Shield Enhancer
+
+// conditional replace based on class
+replacementMode = 2
+
+// Starbase first
+replacement0condition = "fbase" // this station becomes...
+replacement0Class0 = "fbase-shldemt" // this station
+
+// Sensor station next
+replacement1Condition = "fsensor" // this station becomes...
+replacement1Class0 = "fsensor-shldemt" // this station
+
+// This is a replaceWeapon
+classlabel = "replaceweapon"
+
+// Yes, this is a special weapon. Gotta check the techtree
+special = 1
+
+// For players, automatically use three seconds after becoming available
+replacementInstantPlayer = 1
+replacementInstantDelay = 3.0
+//replacementInstantCycle = 5 // if at first you don't succeed...
+
+// For the AI, never use; will muck up their build list
+replacementInstantAI = 0
+
+// This is just a refit, not an entirely new station. Act like it.
+replacementkeepname = 1
+replacementdontremovefootprint = 1
+overrideceasefire = 1 // doing a refit isn't firing a weapon (lore-wise)
+replacementmaintainorders = 1
+replacementregisterasnew = 0
+replacementcreationtype = 1 // it just evolved, don't worry
+overridesubsystem = 1 // doing a refit shouldn't need the weapons working
+
+// don't say anything when you do it
+speakonattack = 0
+attackspeech = 0

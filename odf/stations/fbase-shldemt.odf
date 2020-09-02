@@ -1,0 +1,37 @@
+#include "fbase.odf"
+
+//**********************************************************************
+//MAIN DESIGN PARAMETERS
+
+// What do we look like?
+baseName = "fbase"
+
+//Name of Ship class in Ship Display window & in edit mode & tooltip
+unitName = "Starbase with Shield Enhancer"
+
+//tooltips
+//tooltip = "FED_BASE"
+//verboseTooltip = "FED_BASE_V"
+
+//**********************************************************************
+//ART PARAMETERS & WEAPON NAMES
+
+// Shield Enhancer - Station Variant
+weapon9 = "gshldemt-station"
+weaponHardpoints9 = "root"
+
+//**********************************************************************
+
+
+//**********************************************************************
+//SYSTEM HITPOINTS
+
+// Hitpoints
+
+//shieldGeneratorHitPoints = 1000
+//enginesHitPoints = 0
+//weaponsHitPoints = 1000
+//lifeSupportHitPoints = 1000
+//sensorsHitPoints = 1000
+
+//**********************************************************************

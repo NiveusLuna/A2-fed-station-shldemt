@@ -1,0 +1,15 @@
+#include "fsensor.odf"
+
+//**********************************************************************
+
+//ART PARAMETERS & WEAPON NAMES
+
+// We look like another station
+baseName = "fsensor"
+
+// Shield Enhancer - Station Variant
+weapon2 = "gshldemt-station"
+weaponHardpoints2 = "root"
+
+//**********************************************************************
+
